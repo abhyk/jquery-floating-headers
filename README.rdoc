@@ -33,6 +33,10 @@ Minified:
 == Information
 
 * Tested with jQuery 1.3.2
+* Tested in:
+  - Firefox 3.x
+  - Safari  4.x
+  - Opera   9.2
 
 == License 
 
