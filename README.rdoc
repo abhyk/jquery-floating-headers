@@ -1,17 +1,34 @@
 
 = jQuery Floating Headers
 
-  Float table headers to maintain visibility when viewing large tables. 
+Float table headers to maintain visibility when viewing large tables. 
 
 == Example
 
+All tables:
+
   $('table').floatHeaders()
+  
+One table:
+
+  $('table:nth-child(2)').floatHeaders()
   
 == Features
 
 * Tiny (20 SLOC)
 * Works with any number of tables
 * Prevents table headers from floating below the table(s)
+* No dependencies
+
+== Installation
+
+Uncompressed: 
+
+  $ curl http://tinyurl.com/l2d2tq -L > jquery.floating-headers.js
+  
+Minified:
+
+  $ curl http://tinyurl.com/l2d2tq -L | jsmin > jquery.floating-headers.js
 
 == Information
 
