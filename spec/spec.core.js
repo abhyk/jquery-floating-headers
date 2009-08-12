@@ -1,11 +1,9 @@
 
-describe 'YourLib'
-  describe '.someMethod()'
-    it 'should do something'
-      $(function() {
-        $('body').prepend(fixture('table'))
-        $('table').floatHeaders()
-      })
-    end
+describe '$.floatingHeaders'
+  it 'should work'
+    $(function() {
+      $('body').prepend(fixture('table'))
+      $('table').floatHeaders()
+    })
   end
 end
