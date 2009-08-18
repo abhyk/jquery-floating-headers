@@ -20,16 +20,6 @@ One table:
 * Prevents table headers from floating below the table(s)
 * No dependencies
 
-== Installation
-
-Uncompressed: 
-
-  $ curl http://tinyurl.com/l2d2tq -L > jquery.floating-headers.js
-  
-Minified:
-
-  $ curl http://tinyurl.com/l2d2tq -L | jsmin > jquery.floating-headers.js
-
 == Information
 
 * Tested with jQuery 1.3.2
