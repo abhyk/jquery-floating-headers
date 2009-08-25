@@ -1,4 +1,9 @@
 
+=== 1.1.0 / 2009-08-25
+
+* Added "floating" class
+* Fixed table width; now inherits the original width
+
 === 1.0.0 / 2009-08-12
 
 * Initial release
